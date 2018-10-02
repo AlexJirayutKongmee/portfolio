@@ -14,6 +14,9 @@ body, html {
   padding:0;
 }
 
+p{
+  font-family: 'Cormorant Garamond', serif;
+}
 
 /***
  *      ____            _   _
@@ -46,7 +49,7 @@ body, html {
   background-repeat: no-repeat;
   font-size: 16px;
   font-weight: 400;
-  font-family: 'Gravitas One', cursive;
+  font-family: 'Cormorant Garamond', serif;
   color: #666;
   line-height: 1.8em;
 
