@@ -7,9 +7,7 @@
  *
  */
 
-body, html {
-  height: 100%;
-  width: 100%;
+* {
   margin:0;
   padding:0;
 }
@@ -17,6 +15,36 @@ body, html {
 p{
   font-family: 'Cormorant Garamond', serif;
 }
+
+/***
+ *      _   _             _
+ *     | \ | | __ ___   _| |__   __ _ _ __
+ *     |  \| |/ _` \ \ / / '_ \ / _` | '__|
+ *     | |\  | (_| |\ V /| |_) | (_| | |
+ *     |_| \_|\__,_| \_/ |_.__/ \__,_|_|
+ *
+ */
+
+header ul{
+   display: flex;
+   justify-content: flex-end;
+   flex-flow: row wrap;
+   background-color: #070f32;
+   text-align: right;
+ }
+
+header ul li {
+   display: inline;
+   list-style-type: none;
+   padding: 20px;
+ }
+
+header ul li a {
+   text-decoration: none;
+   font-weight: bold;
+   color: white;
+ }
+
 
 /***
  *      ____            _   _
@@ -59,8 +87,12 @@ p{
 
 .pic1{
   padding-top: 50px;
-  background-image: url('img/goran-ivos-771531-unsplash.jpg');
-  min-height: 800px;
+  background-image: url('img/nordwood-themes-483520-unsplash.jpg');
+  min-height: 600px;
+}
+
+h2, h1, h5{
+  text-shadow: 2px 2px #ffffff;
 }
 
 .pic2{
@@ -69,13 +101,14 @@ p{
 }
 
 .pic3{
-  background-image: url('img/fatos-bytyqi-535528-unsplash.jpg');
+  background-image: url('img/goran-ivos-771531-unsplash.jpg');
   min-height: 400px;
 }
 
 
 .ptext{
   position: absolute;
+  display: inline-block;
   top: 30%;
   width: 100%;
   text-align: center;
@@ -83,12 +116,4 @@ p{
   font-size: 27px;
   letter-spacing: 8px;
   text-transform: uppercase;
-
-}
-
-.ptext .border{
-  background-color: #1E2934;
-  color: white;
-  padding: 20px;
-  display: inline-block;
 }
