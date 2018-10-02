@@ -24,6 +24,11 @@ body, html {
  *
  */
 
+ .section{
+  text-align: center;
+  padding: 50px 80px;
+}
+
 .section-light{
   background-color: #e8e9ea;
   color: #666;
@@ -32,4 +37,55 @@ body, html {
 .section-dark{
   background-color: #282e34;
   color: #ddd;
+}
+
+.pic1, .pic2, .pic3{
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Gravitas One', cursive;
+  color: #666;
+  line-height: 1.8em;
+
+  background-attachment: fixed;
+  word-wrap: break-word;
+}
+
+.pic1{
+  padding-top: 50px;
+  background-image: url('img/goran-ivos-771531-unsplash.jpg');
+  min-height: 800px;
+}
+
+.pic2{
+  background-image: url('img/goran-ivos-422398-unsplash.jpg');
+  min-height: 400px;
+}
+
+.pic3{
+  background-image: url('img/fatos-bytyqi-535528-unsplash.jpg');
+  min-height: 400px;
+}
+
+
+.ptext{
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+
+}
+
+.ptext .border{
+  background-color: #1E2934;
+  color: white;
+  padding: 20px;
+  display: inline-block;
 }
